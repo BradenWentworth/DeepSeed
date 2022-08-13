@@ -1,0 +1,15 @@
+with(DeepSeed){RegisterTemplate({
+    ID :       "class",
+    Tags :    ["class"],
+    Renderer : "class",
+    Data : function(params){
+        /////////////////////////////////////////////////////////////////////////
+        // your stuff goes below here
+        /////////////////////////////////////////////////////////////////////////
+        var races = ["sorcerer", "paladin", "monk","fighter","ranger","druid","wizard","rogue","barbarian","warlock",];
+        return RandomArrayItem(races);
+        /////////////////////////////////////////////////////////////////////////
+        // your stuff goes above here
+        /////////////////////////////////////////////////////////////////////////
+    }
+})};

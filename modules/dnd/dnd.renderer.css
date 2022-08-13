@@ -1,0 +1,20 @@
+/* remove default padding */
+.deepseed .property.stats .property {
+    padding: 0px;
+}
+
+/* horizontal layout */
+.property.stats .object {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* remove toggle marker */
+.property.stats .toggle:after {
+    content: none !important;
+}
+
+.property.stats .toggle {
+    padding: 10px;
+}
